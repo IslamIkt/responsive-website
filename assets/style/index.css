@@ -35,12 +35,12 @@ body{
 }
 
 .number{
-    width: 75%;
-    height: 25%; 
+    width: 300px;
+    height: 60px; 
     background-color: #4F8987;
     border-radius: 50px;
     text-align: center;
-    line-height: 25%;
+    line-height: 60px;
     font-size: 20px;
     color: #F9DB6D;
 }
@@ -48,8 +48,8 @@ body{
 .generate{
     background-color: #4F8987;
     color: #F9DB6D;
-    width: 50%;
-    height: 25%;
+    width: 200px;
+    height: 60px;
     border-radius: 50px;
 }
 
@@ -65,16 +65,42 @@ body{
 @media (max-width: 768px) {
     .box{
 
-        width: 200px;
-        height: 120px;
-        margin-top: 100px;
+        width: 300px;
+        height: 180px;
+        margin-top: 150px;
+    }
+
+    .number{
+        width: 262.5px;
+        height: 45px; 
+        font-size: 18px;
+
+    }
+    
+    .generate{
+        width: 131.25px;
+        height: 45px;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 480px) {
     .box{
-        width: 100px;
-        height: 60px;
-        margin-top: 50px;
+        width: 200px;
+        height: 120px;
+        margin-top: 100px;
+    }
+
+    .number{
+        width: 150px;
+        height: 30px; 
+        font-size: 16px;
+
+    }
+    
+    .generate{
+        width: 150px;
+        height: 30px;
+        font-size: 16px;
     }
 }
